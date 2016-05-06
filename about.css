@@ -1,4 +1,4 @@
-   body {
+body {
        background-color: #00000;
        background-image: url("images/testemback.jpg");
        background-repeat: repeat;
@@ -66,27 +66,6 @@
        width: 63;
    }
    
-    h4 {
-        text-align: center;
-        font-family: Calibri;
-        font-size: 20px;
-        text-shadow: 1px 1px 1px;
-        letter-spacing: 4px;
-        color: #000033;
-        background-color: inherit;
-        height: 5px;
-    }
-/* p services*/
-    p {
-        text-align: center;
-        font-family: Calibri;
-        font-size: 15px;
-        height: 5px;
-        text-shadow: 1px 1px 1px;
-        letter-spacing: 2px;
-        color: #000033;
-        background-color: inherit;
-    }
 
    nav {
         text-align: center;
@@ -138,7 +117,9 @@
         color: black; 
     }
     
-    footer {
-        position:relative;
-        bottom:0;
+    f {
+        position: fixed;
+        text-align-last: 10px;
+        float: auto;
+        
     }    

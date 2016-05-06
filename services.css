@@ -1,14 +1,14 @@
    body {
        background-color: #00000;
        background-image: url('images/aboutback.jpg');
-       background-size: 1920px 1080px: 
+       background-size: 1920px 1080px;
        background-repeat: no-repeat;
        width: 100%;
         }
     
     h1 {
         text-align: center;
-        float: center;
+        float: inherit;
         font-family: Arial;
         font-weight: bold;
         font-size: 28px;
@@ -34,60 +34,59 @@
         color: #000033;
         background-color: inherit;
     }
-    
-    
-   nav {
+    nav {
         text-align: center;
         font-family: Calibri;
         font-size: 22px;
-        height: 10px;
+        height: 60px;
         text-shadow: 1px 2px 3px;
         letter-spacing: 3px;
-        word-spacing: 100px;
+        word-spacing: 2px;
         color: #000000;
         background-color: inherit;
-   }   
+    }
     
     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        width: 25%;
-        background-color: inherit;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
     }
     
     li a {
         display: block;
-        color: #000;
-        padding: 0px 0 0px 0px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
         text-decoration: none;
     }
     
-    li a.active {
-        background-color: lightblue;
-        color: white;
+    li a:hover {
+        background-color: #111;
     }
     
-    li a:hover:not(.active) {
-        background-color: skyblue;
-        color: white;
-    }
-  
-   .navbar-default {
-        background-color: inherit;
+    .navbar-default {
+        background-color: #6699FF;
         border-color: #6699FF;
     }
-   .navbar-default .navbar-nav > li > a {
-        color: black; 
+    
+    .navbar-default .navbar-nav > li > a {
+        color: black;
     }
+    
+
+  
     table:hover {background-color: skyblue }  
    
     table {
-    border: 2px solid black;
-} 
+    border: 2px;
+    float: inherit;
+    } 
     footer {
         position:relative;
         bottom:0;
