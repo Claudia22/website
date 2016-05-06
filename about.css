@@ -7,7 +7,7 @@ body {
         }
    
    
-/*h1 A bit about us */
+
     h1 {
         text-align: center;
         font-family: Calibri;
@@ -21,7 +21,7 @@ body {
         background-color: inherit;
     }
 
-/*h2 at claudia's sparkles*/
+
     h2 {
         float: inherit;
         text-align: center;
@@ -33,7 +33,7 @@ body {
         color: #20148A;
         background-color: inherit;
     }
-/*h3 2nd paragraph*/
+
     h3  {
         text-align: center;
         font-family: Calibri;
@@ -45,7 +45,7 @@ body {
         height: 100px;
         background-color: inherit;
     }
-/*h4 our services*/
+
 
 
    section {
